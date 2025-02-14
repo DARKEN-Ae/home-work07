@@ -1,0 +1,10 @@
+.submit-btn {
+  background: #a200ff71;
+  backdrop-filter: blur(5px);
+  border: #fff;
+  &:hover {
+    background: #a200ff;
+    color: #fff;
+    border: none;
+  }
+}
