@@ -46,7 +46,7 @@ const HomePage = () => {
       setStudent({
         firstName: "",
         lastName: "",
-        group: "Your Laptop",
+        group: "Select Laptop",
         age: "",
         descrip: "",
       });

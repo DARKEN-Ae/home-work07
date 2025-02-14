@@ -48,13 +48,13 @@ const FromStudent = ({ handleSubmit, validated, handleStudent, student }) => {
         <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
       </Form.Group>
       <Form.Group className="my-3" controlId="age">
-        <Form.Label>Age</Form.Label>
+        <Form.Label>Price</Form.Label>
         <Form.Control
           required
           onChange={handleStudent}
           value={student.age}
           type="number"
-          placeholder="Your age"
+          placeholder="How much $"
         />
         <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
         <Form.Control.Feedback type="invalid">
